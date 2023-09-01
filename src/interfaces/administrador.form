@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="interfaces.administrador">
+  <grid id="27dc6" binding="admin" layout-manager="GridLayoutManager" row-count="15" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="801" height="618"/>
+    </constraints>
+    <properties>
+      <background color="-1245953"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="c4c0f">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e4a15">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="c3b46">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="2" height="2"/>
+            <preferred-size width="2" height="2"/>
+            <maximum-size width="2" height="2"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="b2755" class="javax.swing.JButton" binding="INGRESARNUEVOPRODUCTOButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1245953"/>
+          <font name="Consolas" size="12" style="3"/>
+          <text value="INGRESAR NUEVO PRODUCTO"/>
+        </properties>
+      </component>
+      <component id="bb4b8" class="javax.swing.JButton" binding="REGRESARButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="11" style="0"/>
+          <text value="REGRESAR"/>
+        </properties>
+      </component>
+      <vspacer id="97e1d">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="7f222" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="3"/>
+          <text value="CORREO:"/>
+        </properties>
+      </component>
+      <component id="33389" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="3"/>
+          <text value="NOMBRE:"/>
+        </properties>
+      </component>
+      <component id="92665" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="64419" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="eb1d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="192e4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="f6334" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="6a564" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="192" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="a1f6c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="24" style="3"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="ADMINISTRADOR  "/>
+        </properties>
+      </component>
+      <component id="aaa98" class="javax.swing.JButton" binding="VENTASDEPRODUCTOSButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1245953"/>
+          <font name="Consolas" size="12" style="3"/>
+          <text value="VENTAS DE PRODUCTOS"/>
+        </properties>
+      </component>
+      <component id="f66eb" class="javax.swing.JButton" binding="AGREGARNUEVOCAJEROButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1245953"/>
+          <font name="Consolas" size="12" style="3"/>
+          <text value="AGREGAR NUEVO CAJERO"/>
+        </properties>
+      </component>
+      <component id="d3e83" class="javax.swing.JLabel" binding="nombreadmin">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="dcf64" class="javax.swing.JLabel" binding="correoadmin">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <hspacer id="59c97">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="7c563">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d6e87" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="388f9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="img/adm.jpeg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f6aa5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

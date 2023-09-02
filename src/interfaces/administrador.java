@@ -2,12 +2,12 @@ package interfaces;
 
 import javax.swing.*;
 
-public class administrador {
+public class administrador extends JFrame {
     private JPanel admin;
     private JButton VENTASDEPRODUCTOSButton;
     private JButton INGRESARNUEVOPRODUCTOButton;
     private JButton AGREGARNUEVOCAJEROButton;
-    private JButton REGRESARButton;
+    private JButton regresarButton;
     private JLabel nombreadmin;
     private JLabel correoadmin;
 

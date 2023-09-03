@@ -1,6 +1,6 @@
 package model;
 
-import vistas.VistaRevisionVentasAdmi;
+import interfaces.admRevVentas;
 
 import javax.swing.*;
 import java.sql.Connection;

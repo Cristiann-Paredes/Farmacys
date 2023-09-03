@@ -1,12 +1,12 @@
-import controlador.CtrGestionCajeros;
-import controlador.CtrLogin;
-import controlador.CtrProductosAdmin;
-import modelo.DatosCompartidos;
-import vistas.VistaCrudCajeroAdmi;
-import vistas.VistaCrudProductosAdmi;
-import vistas.VistaFacturaCajero;
-import vistas.VistaLogin;
-import controlador.*;
+import controler.CtrGestionCajeros;
+import controler.CtrLogin;
+import controler.CtrProductosAdmin;
+import controler.DatosCompartidos;
+import controler.VistaCrudCajeroAdmi;
+import controler.VistaCrudProductosAdmi;
+import interfaces.VistaFacturaCajero;
+import interfaces.VistaLogin;
+import controler.*;
 
 public class main {
     public static void main(String[] args) {

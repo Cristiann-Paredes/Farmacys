@@ -4,13 +4,13 @@ import javax.swing.*;
 
 public class admProductos {
     private JPanel admProductos;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
-    private JTextField textField6;
-    private JTable table1;
+    private JTextField idtextField;
+    private JTextField nombretextField;
+    private JTextField descripciontextField;
+    private JTextField inventariotextField;
+    private JTextField preciotextField;
+    private JTextField proveedortextField;
+    private JTable informacion;
     private JButton regresarButton;
     private JButton agregarButton;
     private JButton actualizarButton;

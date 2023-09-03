@@ -5,10 +5,10 @@ import javax.swing.*;
 public class admRevVentas {
     private JPanel admVentas;
     private JButton regresarButton;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTable table1;
+    private JTextField nombretextField;
+    private JTextField apellidotextField;
+    private JTextField codigoidtextField;
+    private JTable ventas;
     private JButton buscarButton;
     private JButton registarButton;
     private JButton seleccionarButton;

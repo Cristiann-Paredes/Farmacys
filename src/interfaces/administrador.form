@@ -29,7 +29,7 @@
           </grid>
         </constraints>
       </hspacer>
-      <component id="b2755" class="javax.swing.JButton" binding="INGRESARNUEVOPRODUCTOButton" default-binding="true">
+      <component id="b2755" class="javax.swing.JButton" binding="ingresarproducButton">
         <constraints>
           <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="192" height="30"/>
@@ -152,7 +152,7 @@
           <text value="ADMINISTRADOR  "/>
         </properties>
       </component>
-      <component id="aaa98" class="javax.swing.JButton" binding="VENTASDEPRODUCTOSButton" default-binding="true">
+      <component id="aaa98" class="javax.swing.JButton" binding="ventasButton">
         <constraints>
           <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -162,7 +162,7 @@
           <text value="VENTAS DE PRODUCTOS"/>
         </properties>
       </component>
-      <component id="f66eb" class="javax.swing.JButton" binding="AGREGARNUEVOCAJEROButton" default-binding="true">
+      <component id="f66eb" class="javax.swing.JButton" binding="agregarButton">
         <constraints>
           <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>

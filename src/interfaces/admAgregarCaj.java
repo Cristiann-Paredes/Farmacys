@@ -3,16 +3,16 @@ package interfaces;
 import javax.swing.*;
 import java.awt.*;
 
-public class admAgregarCaj {
+public class admAgregarCaj extends JFrame {
     private JPanel agregarcajeros;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField1;
-    private JTextField textField4;
-    private JTextField textField6;
-    private JTextField textField7;
-    private JTextField textField8;
-    private JTextField textField9;
+    private JTextField apellidotextField;
+    private JTextField nombretextField;
+    private JTextField idtextField;
+    private JTextField dirrecciontextField;
+    private JTextField telefonotextField;
+    private JTextField usuariotextField;
+    private JTextField contrasenatextField;
+    private JTextField correotextField;
     private JButton buscarCajeroButton;
     private JButton eliminarCajeroButton;
     private JButton actualizarCajeroButton;

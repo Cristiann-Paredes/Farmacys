@@ -173,7 +173,7 @@
           </hspacer>
         </children>
       </grid>
-      <component id="9b8c3" class="javax.swing.JButton" binding="INGRESARButton" default-binding="true">
+      <component id="9b8c3" class="javax.swing.JButton" binding="ingresarButton">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>

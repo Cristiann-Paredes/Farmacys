@@ -6,7 +6,7 @@ public class login extends JPanel {
     private JPanel login;
     private JComboBox rolComboBox;
     private JTextField usuariotextField;
-    private JButton INGRESARButton;
+    private JButton ingresarButton;
     private JPasswordField contrasenaField;
 
     public static void main(String[] args) {

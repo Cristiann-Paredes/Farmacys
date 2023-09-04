@@ -8,5 +8,4 @@ import java.awt.event.ActionListener;
 public class controlerlogin implements ActionListener{
 
 
-
 }

@@ -7,7 +7,6 @@ import interfaces.login;
 
 import java.awt.event.ActionListener;
 
-
 public class CtrFacturacion implements ActionListener {
 
 

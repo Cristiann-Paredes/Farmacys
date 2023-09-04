@@ -1,10 +1,10 @@
 package controler;
 
-import modelo.CajeroCrud;
-import modelo.CajeroyAdministrador;
-import modelo.DatosCompartidos;
-import vistas.VistaCrudCajeroAdmi;
-import vistas.VistaPrincipalAdmi;
+import model.CajeroCrud;
+import model.CajeroyAdministrador;
+import model.datosuser;
+import interfaces.admAgregarCaj;
+import interfaces.administrador;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -12,14 +12,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
-public class CtrGestionCajeros implements ActionListener {
+public class controlerAgregarCaj implements ActionListener {
     CajeroCrud ccrud = new CajeroCrud();
     VistaCrudCajeroAdmi vcrudcajero; //Vista
     DefaultTableModel modelo;//Modelo para JTable
     CajeroyAdministrador cya = new CajeroyAdministrador();
-    DatosCompartidos dc;
-    public CtrGestionCajeros(VistaCrudCajeroAdmi vcc, DatosCompartidos dc){
-        this.dc = dc;
+    datosuser datosuser;
+    public controlerAgregarCaj(VistaCrudCajeroAdmi vcc, DatosCompartidos datosuser){
+        this.datosuser = datosuser;
         this.vcrudcajero = vcc;
         this.modelo = new DefaultTableModel();
         this.modelo.addColumn("ID");

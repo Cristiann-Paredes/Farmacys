@@ -1,18 +1,18 @@
-import controler.CtrGestionCajeros;
-import controler.CtrLogin;
-import controler.CtrProductosAdmin;
-import controler.DatosCompartidos;
-import controler.VistaCrudCajeroAdmi;
-import controler.VistaCrudProductosAdmi;
-import interfaces.VistaFacturaCajero;
-import interfaces.VistaLogin;
+import controler.controlerlogin;
+import model.datosuser;
+import interfaces.admAgregarCaj;
+import interfaces.admProductos;
+import interfaces.cajero;
+import interfaces.login;
+import controler.controlerAgregarCaj;
+import controler.controlerRevVentas;
+//import controler.controlerProductos;
 import controler.*;
-
 public class main {
     public static void main(String[] args) {
-        DatosCompartidos dc = new DatosCompartidos();
-        VistaLogin vl = new VistaLogin();
-        new CtrLogin(vl, dc);
-        vl.setVisible(true);
+        datosuser datosuser = new datosuser();
+        login login = new login();
+        new controlerlogin(login, datosuser);
+        login.setVisible(true);
     }
 }

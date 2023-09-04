@@ -10,11 +10,10 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.DatabaseMetaData;
 import java.util.List;
 
 
-public class CtrVistaVentas implements ActionListener
+public class controlerRevVentas implements ActionListener
 {
     VistasVentas vistasVentas = new VistasVentas();
     Factura cafactu = new Factura();
@@ -23,7 +22,7 @@ public class CtrVistaVentas implements ActionListener
     DefaultTableModel modeloDetalle;
     DatosCompartidos dc;
 
-    public CtrVistaVentas(VistaRevisionVentasAdmi vrv, DatosCompartidos dc)
+    public controlerRevVentas(VistaRevisionVentasAdmi vrv, DatosCompartidos dc)
     {
         this.dc = dc;
         this.vvistasventas = vrv;

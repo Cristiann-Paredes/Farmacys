@@ -11,19 +11,18 @@ import vistas.VistaPrincipalAdmi;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
-public class CtrProductosAdmin implements ActionListener
+public class controlerProductos implements ActionListener
 {
     ProductoCrud pcrud = new ProductoCrud();
     VistaCrudProductosAdmi vcrudproductos;
     DefaultTableModel modelo;
     Producto prod = new Producto();
     DatosCompartidos dc;
-    public CtrProductosAdmin(VistaCrudProductosAdmi vcp, DatosCompartidos dc)
+    public controlerProductos(VistaCrudProductosAdmi vcp, DatosCompartidos dc)
     {
         this.dc = dc;
         this.vcrudproductos = vcp;

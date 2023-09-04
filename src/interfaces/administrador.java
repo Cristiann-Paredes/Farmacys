@@ -1,14 +1,9 @@
 package interfaces;
 
-import controler.CtrGestionCajeros;
-import controler.CtrLogin;
-import controler.CtrProductosAdmin;
-import controler.CtrVistaVentas;
-import modelo.datosuser;
+import model.datosuser;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 public class administrador extends JFrame {
     private JPanel admin;
     private JButton ventasButton;
@@ -19,6 +14,9 @@ public class administrador extends JFrame {
     private JLabel correoadmin;
 
     private datosuser datosuser;
+
+    public administrador(model.datosuser datosuser) {
+    }
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Administrador");

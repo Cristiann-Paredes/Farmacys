@@ -1,6 +1,6 @@
 package model;
 
-public class DatosCompartidos {
+public class datosuser {
     private int rol;
     private String id = "";
     private String nombre = "";

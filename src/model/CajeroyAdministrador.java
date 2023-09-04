@@ -12,5 +12,7 @@ public class CajeroyAdministrador {
     private String contrasena;
 
     public CajeroyAdministrador(){
+
+    }
     }
 
